@@ -1,0 +1,75 @@
+p {
+   color: red;
+}
+*::before,*::after{
+ margin: 0;
+ padding: 0;
+ border: 0;   
+}
+li{
+   list-style: none;
+}
+a,:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+img {
+   vertical-align: top;
+}
+
+p {
+   color: darkgreen;
+}
+span {
+   color: green;
+}
+.block {
+   color: blue;
+}
+#message {
+   color: indigo;
+}  
+span.text {
+   color:darkred;
+}
+.text.green {
+   color: darksalmon;
+}
+p span {
+   color:deeppink;
+}
+
+.text span {
+   color: orange;
+}
+
+.text__item ~ p{
+   color:yellow;
+}
+
+.text__item + P {
+   color:tomato;
+}
+
+
+.text span{
+   color: red;
+}
+.text > span{
+   color: yellow;
+}
+
+
+
+
+/*
+* {
+   color: brown;
+}
+.text {
+   color: green;
+}
+
+
